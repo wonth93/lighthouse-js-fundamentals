@@ -1,4 +1,4 @@
-let sayHello = function (name) {
-  console.log("hello, " + name);
+const returnSayHello  = function (name) {
+  return "Hello, " + name;
 }
-sayHello("Caliban");
+console.log(returnSayHello("John"));
